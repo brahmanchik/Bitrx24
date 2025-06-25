@@ -1,0 +1,68 @@
+# Bitrix24 Core (ядро) - НЕ добавляем в репозиторий
+/bitrix/
+
+# Upload files (загруженные файлы)
+/upload/
+
+# Cache files (кеш)
+/cache/
+/managed_cache/
+/stack_cache/
+
+# Logs (логи)
+/logs/
+
+# Temporary files (временные файлы)
+/tmp/
+/temp/
+
+# Configuration files with sensitive data (конфигурационные файлы с чувствительными данными)
+/bitrix/.settings.php
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/after_connect_d7.php
+
+# IDE files (файлы IDE)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS files (системные файлы)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files (резервные копии)
+*.bak
+*.backup
+*.old
+
+# Session files (файлы сессий)
+/sessions/
+
+# Personal files (личные файлы)
+/personal/
+
+# Local modules (локальные модули)
+/local/
+
+# Environment files (файлы окружения)
+.env
+.env.local
+.env.production
+
+# Composer files (если используется)
+/vendor/
+composer.lock
+
+# Node modules (если используется)
+/node_modules/
+package-lock.json
+
+# Build files (сборки)
+/dist/
+/build/
+
+# Test files (тестовые файлы)
+/tests/
+/test/ 
