@@ -1,23 +1,6 @@
 <?php
 
 return array (
-    'cache_flags' =>
-        array (
-            'value' =>
-                array (
-                    'config_options' => 3600.0,
-                ),
-            'readonly' => false,
-        ),
-    'cookies' =>
-        array (
-            'value' =>
-                array (
-                    'secure' => false,
-                    'http_only' => true,
-                ),
-            'readonly' => false,
-        ),
     'exception_handling' =>
         array (
             'value' =>
@@ -38,51 +21,5 @@ return array (
                     ),
                 ),
             'readonly' => false,
-        ),
-    'connections' =>
-        array (
-            'value' =>
-                array (
-                    'default' =>
-                        array (
-                            'host' => 'mysql',
-                            'database' => 'dev',
-                            'login' => 'dev',
-                            'password' => 'dev',
-                            'options' => 2.0,
-                            'className' => '\\Bitrix\\Main\\DB\\MysqliConnection',
-                        ),
-                ),
-            'readonly' => true,
-        ),
-    'crypto' =>
-        array (
-            'value' =>
-                array (
-                    'crypto_key' => '87e913e7dab3aa6a28ea02f8a5d98751',
-                ),
-            'readonly' => true,
-        ),
-    'messenger' =>
-        array (
-            'value' =>
-                array (
-                    'run_mode' => NULL,
-                    'brokers' =>
-                        array (
-                            'default' =>
-                                array (
-                                    'type' => 'db',
-                                    'params' =>
-                                        array (
-                                            'table' => 'Bitrix\\Main\\Messenger\\Internals\\Storage\\Db\\Model\\MessengerMessageTable',
-                                        ),
-                                ),
-                        ),
-                    'queues' =>
-                        array (
-                        ),
-                ),
-            'readonly' => true,
         ),
 );
